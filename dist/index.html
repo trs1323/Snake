@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <style>
+        canvas {
+            background: black
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="snake.js"></script>
+</head>
+
+<body onload="init()" class="body">
+    <div class='main'>
+        <div>
+            <h1>Snake</h1>
+        </div>
+        <div>
+            <canvas id="myCanvas" width="300" height="300"></canvas>
+        </div>
+        <div>
+            <button onclick="init()">Restart</button>
+        </div>
+    </div>
+    <div class="desc">
+        <p>Directions:</p>
+        <p>Arrow Keys to move, eat the mouse to get better. You know how to play Snake. Speeds up after mouse eaten.
+            Thanks for playing!</p>
+    </div>
+</body>
+
+</html>
